@@ -1,0 +1,5 @@
+menu "configure device driver"
+    orsource "display/Kconfig"
+    orsource "touch/Kconfig"
+    orsource "encoder/Kconfig"
+endmenu

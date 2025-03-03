@@ -1,0 +1,9 @@
+# Ktuyaconf
+menu "configure tuyaopen"
+    source "tuya_cloud_service/Kconfig"
+    source "liblwip/Kconfig"
+    source "libtls/Kconfig"
+    source "tal_system/Kconfig"
+    source "liblvgl/Kconfig"
+    source "device_driver/Kconfig"
+endmenu
